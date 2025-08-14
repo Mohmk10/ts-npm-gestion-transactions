@@ -1,0 +1,28 @@
+{
+  "name": "gestion-transaction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/views/Main.ts",
+    "build": "rimraf dist && tsc",
+    "start": "node dist/views/Main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "@types/readline-sync": "^1.4.8",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "mysql2": "^3.14.3",
+    "readline-sync": "^1.4.10"
+  }
+}
